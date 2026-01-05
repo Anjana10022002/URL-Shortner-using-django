@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #9b83fb, #A993FF);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-page {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.nav-left a {
+    margin-right: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-left a:hover {
+    text-decoration: underline;
+}
+.logout-btn {
+    background-color: #FF3B30;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.auth-box, .form-container, .edit-box, .confirm-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    width: 380px;
+    margin-top: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+input[type="text"],
+input[type="password"],
+input[type="url"] {
+    width: calc(100% - 26px);
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid #bcb8ff;
+    margin-bottom: 16px;
+    font-size: 15px;
+
+}
+input:focus {
+    outline: none;
+    border-color: #6C63FF;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.4);
+}
+button, .btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    background: #6C63FF;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 45px;
+}
+button:hover, .btn:hover {
+    background: #584dcb;
+}
+.action-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+.small-btn {
+    width: 140px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.danger-btn {
+    background: #6C63FF;
+    border: none;
+    color: white;
+}
+.danger-btn:hover {
+    background: #5448dd;
+}
+.cancel-btn {
+    display: block;
+    width: 150px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    font-size: 16px;
+    background: white;
+    color: #6C63FF !important;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid #6C63FF;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.cancel-btn:hover {
+    background: #e8e6ff;
+}
+.cancel-link {
+    background: white;
+    border: 2px solid #6C63FF;
+    color: #6C63FF !important;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel-link:hover {
+    background: #ebe9ff;
+}
+.search-box {
+    width: 380px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.search-box button {
+    width: auto;
+}
+.confirm-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.table-container {
+    width: 85%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table th {
+    background: #6C63FF;
+    color: white;
+    padding: 12px;
+}
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+table tr:hover {
+    background-color: #f1efff;
+}
+.action-links a {
+    text-decoration: none;
+    color: #4e44ff;
+    font-weight: 600;
+}
+.action-links a:hover {
+    text-decoration: underline;
+}
+.paginator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+.paginator a, .paginator strong {
+    background: #6C63FF;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.paginator strong {
+    background: white;
+    color: #6C63FF;
+    border: 2px solid #6C63FF;
+}
+ul.messages {
+    list-style: none;
+    padding: 0;
+    width: 380px;
+    margin: 20px auto;
+    font-weight: 600;
+}
+ul.messages li {
+    padding: 14px 18px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
